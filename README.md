@@ -1,4 +1,38 @@
+# TerraLoop 2
 
+TerraLoop 2 es una demostración de Human in the Loop usando micro:bit V2 y MakeCode Python.
+
+La idea principal es que el sistema no tome por sí solo una decisión crítica.
+
+## Funcionamiento
+
+- Estado inicial: sistema normal
+- Botón A o Shake: detecta una anomalía
+- El sistema muestra EVENTO y REVISAR
+- Botón B: una persona confirma la situación
+- El sistema pasa a ROJO
+- Botón B nuevamente: la alerta escala a CRITICO
+- Se activa una señal sonora
+
+## Concepto
+
+TerraLoop combina:
+
+sensor → detección → revisión humana → confirmación → escalamiento
+
+El objetivo es mostrar cómo una persona puede permanecer dentro del proceso de decisión cuando existe una situación de riesgo.
+
+## Tecnología
+
+- micro:bit V2
+- Microsoft MakeCode
+- Python
+- Sensores integrados
+- Human in the Loop
+
+## Versión
+
+TerraLoop 2 continúa el desarrollo iniciado en TerraLoop 1, incorporando revisión humana y escalamiento de alertas.
 > Open this page at [https://errorcheck.github.io/Terraloopv2sonia/](https://errorcheck.github.io/Terraloopv2sonia/)
 
 ## Use as Extension
